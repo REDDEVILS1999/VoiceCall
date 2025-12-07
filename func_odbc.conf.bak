@@ -1,0 +1,5 @@
+
+[GETCONFIG]
+dsn=asterisk-sqlite
+readsql=SELECT RetryAttempts, CaptchaLength, FileToPlay FROM config LIMIT 1
+
